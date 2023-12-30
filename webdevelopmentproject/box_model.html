@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxModel</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            background-color: rgb(231,230,241);
+            border: 3px solid rgb(221, 201, 201);
+            /* we can set padding for top ,bottom ,left,right */
+           /* padding-top:79px ;
+            padding-bottom:79px ;
+            padding-left: 34px;*/
+             /* padding: 23px,56px,6px,78px;*/ /* padding=top,right,bottom,left */
+              padding: 34px 19px; /*padding:y(top/bottom) x(left/right);*/
+            margin-bottom: 34px;
+            margin-top:34px ;
+            margin-left: 34px;
+            margin-right: 34px;
+            border-radius: 23px;
+            width: 100px;
+            min-height: auto;
+            box-sizing: border-box;
+        }
+    </style>
+        
+    }
+</head>
+<body>
+    <div class="container">
+        <p id="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus iure nam ea molestiae consectetur maiores doloribus dignissimos tenetur eveniet. Odio quibusdam sapiente amet autem beatae tempore ab mollitia dolor!
+
+        </p>
+
+    </div>
+
+    <div class="container">
+        <p id="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus iure nam ea molestiae consectetur maiores doloribus dignissimos tenetur eveniet. Odio quibusdam sapiente amet autem beatae tempore ab mollitia dolor!
+
+        </p>
+
+    </div>
+
+    <div class="container">
+        <p id="third">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus iure nam ea molestiae consectetur maiores doloribus dignissimos tenetur eveniet. Odio quibusdam sapiente amet autem beatae tempore ab mollitia dolor!
+
+        </p>
+
+    </div>
+</body>
+</html>
